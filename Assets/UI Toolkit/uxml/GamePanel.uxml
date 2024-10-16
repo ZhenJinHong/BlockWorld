@@ -1,0 +1,65 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/uss/DefaultRuntimeTheme.uss?fileID=7433441132597879392&amp;guid=fe10cba69b7ab3d4bad2696659499c03&amp;type=3#DefaultRuntimeTheme" />
+    <ui:VisualElement name="TopBar" class="view-row">
+        <ui:VisualElement style="width: 33%;">
+            <ui:VisualElement class="view-row">
+                <ui:Label tabindex="-1" text="Mana" display-tooltip-when-elided="true" picking-mode="Ignore" />
+                <ui:Label tabindex="-1" text="99" display-tooltip-when-elided="true" name="Mana" picking-mode="Ignore" />
+            </ui:VisualElement>
+            <ui:VisualElement>
+                <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="TargetInfoBar" class="view-child-center-center view-bg-frameimage" style="width: 33%;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Center" picking-mode="Ignore" class="view-full view-row">
+        <ui:VisualElement name="CenterView" picking-mode="Ignore" class="view-full view-child-center-center">
+            <ui:VisualElement name="TabMenu" picking-mode="Ignore" class="view-bg-frameimage view-row" style="width: 65%; height: 8%;" />
+            <ui:VisualElement name="TabContent" picking-mode="Ignore" style="height: 82%; width: 65%;">
+                <ui:VisualElement name="InventoryView" picking-mode="Ignore" class="view-row view-full">
+                    <ui:VisualElement name="TotalInventoryList" class="color-bg-squeaky-opacity color-image-squeaky view-child-center-center" style="width: 30%; height: 100%; background-image: url(&apos;project://database/Assets/Texture2D/UISprite/HighLightBox_1.png?fileID=2800000&amp;guid=5c853b0bbac26f24facf381d2a37f5a5&amp;type=3#HighLightBox_1&apos;); -unity-slice-left: 25; -unity-slice-top: 25; -unity-slice-right: 25; -unity-slice-bottom: 25; margin-left: 3px; margin-right: 3px; margin-top: 3px; margin-bottom: 3px;">
+                        <ui:VisualElement class="item-line">
+                            <ui:VisualElement class="item-line-image" />
+                            <ui:Label tabindex="-1" text="999999" display-tooltip-when-elided="true" class="item-line-lbl" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="item-line view-row">
+                            <ui:VisualElement class="item-line-image" />
+                            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Right" picking-mode="Ignore" style="width: 70%; height: 100%;">
+                        <ui:VisualElement picking-mode="Ignore" style="width: 100%;">
+                            <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="LatticeView" class="view-child-center-center view-bg-frameimage" style="width: 100%; height: 55%;" />
+                        <ui:VisualElement name="ItemInfoView" picking-mode="Ignore" class="view-bg-frameimage" style="width: 100%; height: 40%;">
+                            <ui:VisualElement name="VoxelItemInfo" picking-mode="Ignore" class="view-full view-row view-mp10px">
+                                <ui:VisualElement picking-mode="Ignore" name="InfoLeft" class="view-mp10px" />
+                                <ui:VisualElement name="InfoRight" picking-mode="Ignore" class="view-mp10px">
+                                    <ui:Label tabindex="-1" text=" " display-tooltip-when-elided="true" name="ItemName" picking-mode="Ignore" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="BottomBar" picking-mode="Ignore" class="view-row view-child-center-center" style="margin-bottom: 5px;">
+        <ui:VisualElement picking-mode="Ignore" class="view-child-center-center">
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="MagicName" picking-mode="Ignore" class="color-bg-squeaky" />
+            <ui:VisualElement name="MagicImage" picking-mode="Ignore" class="color-image-squeaky item-lattice" />
+        </ui:VisualElement>
+        <ui:VisualElement name="LatticeBar" picking-mode="Ignore" class="view-child-center-center">
+            <ui:Label tabindex="-1" display-tooltip-when-elided="true" name="ItemName" picking-mode="Ignore" class="color-bg-squeaky" />
+            <ui:VisualElement name="Row" class="view-row">
+                <ui:VisualElement name="Lattice" class="color-image-squeaky item-lattice" />
+                <ui:VisualElement name="Lattice" class="color-image-squeaky item-lattice" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement picking-mode="Ignore" class="view-child-center-center">
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="ShapeName" picking-mode="Ignore" class="color-bg-squeaky" />
+            <ui:VisualElement name="ShapeImage" picking-mode="Ignore" class="color-image-squeaky item-lattice" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

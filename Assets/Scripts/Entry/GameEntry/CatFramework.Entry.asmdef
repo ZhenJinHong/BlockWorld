@@ -1,0 +1,29 @@
+{
+    "name": "CatFramework.Entry",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5ae5a71a7769e9040988a77cd9bd20dd",
+        "GUID:aa9d47d5074f1d046875e98c7f5ea163",
+        "GUID:eb0c7f5f0600c5a43b3d5a9bef6fce7e",
+        "GUID:98f205ca6f8eec04087a3588a6c20c02",
+        "GUID:2e51ec3e892d2ef4ebbe2b8e61b21415",
+        "GUID:c297749151191054283dcabf8637fd66",
+        "GUID:d4ba9c000b4f2bb43b5d88c17ef549d1",
+        "GUID:552a3d29e21929241ab7408b06c49949",
+        "GUID:2d999fad574dcf94aabb8ddb3c94d81a",
+        "GUID:30e7465ce10af9e46bdebdf9a48d3cee",
+        "GUID:eaf5c00868f6e43469714b4b67ea03c6",
+        "GUID:144cb766c5c259e4f99c3ba8e453bcb0",
+        "GUID:ae23f28e3bf551245a3a39a668a7b368",
+        "GUID:596b71962069e65438127c66ff2785c1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc4c285ba1792b74289060447956ca44, type: 3}
+  m_Name: "\u4FA7\u534A\u7816"
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 7257fa7521ea98c4eaf8ec3032cf5bdf, type: 3}
+  classifyName: "\u65B9\u5757"
+  elements:
+  - Mesh: {fileID: -6519573376202138423, guid: 94782fb3badaea84c9b3c7f1c3f811bf, type: 3}
+    frontRect: 0
+    backRect: 18446744073709551615
+    topRect: 4294967295
+    bottomRect: 4294967295
+    rightRect: 1085102592571150095
+    leftRect: 1085102592571150095
+  shapePhysicsInfos:
+  - bevelRadius: 0
+    center: {x: 0, y: 0, z: -0.25}
+    size: {x: 1, y: 1, z: 0.5}
+    angle: {x: 0, y: 0, z: 0}

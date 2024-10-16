@@ -1,0 +1,22 @@
+{
+    "name": "CatFramework.UiManagerMiao",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5ae5a71a7769e9040988a77cd9bd20dd",
+        "GUID:552a3d29e21929241ab7408b06c49949",
+        "GUID:d4ba9c000b4f2bb43b5d88c17ef549d1",
+        "GUID:30e7465ce10af9e46bdebdf9a48d3cee",
+        "GUID:9e24947de15b9834991c9d8411ea37cf",
+        "GUID:84651a3751eca9349aac36a66bba901b",
+        "GUID:98f205ca6f8eec04087a3588a6c20c02"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

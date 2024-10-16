@@ -1,0 +1,17 @@
+{
+    "name": "CatFramework.DataManagerMiao",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5ae5a71a7769e9040988a77cd9bd20dd",
+        "GUID:2d999fad574dcf94aabb8ddb3c94d81a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20953671b44643549acaa9cc0a18597c, type: 3}
+  m_Name: LayeredWorld
+  m_EditorClassIdentifier: 
+  builder:
+    BaseHeight:
+      x: 90
+      y: 130
+    TopographicHeightDiff:
+      x: 40
+      y: 50
+  WorldRegionDefinition: {fileID: 11400000, guid: ef6aa3641b7a66249946a3f95e48386e,
+    type: 2}
+  TerrainDefinitions:
+  - {fileID: 11400000, guid: 8ef4589b6cc5ca54997dd4478bff4fa5, type: 2}
+  - {fileID: 11400000, guid: a68e5354c7d563e4dbad7a93a6a6f0ee, type: 2}
+  - {fileID: 11400000, guid: d986739f0602c30449b8d888ee9d1ed8, type: 2}
+  - {fileID: 11400000, guid: ebd7a7ea97951f14187c13a247c30b70, type: 2}
+  WorldFillerDefinitions:
+  - {fileID: 11400000, guid: 3a124cf6eb28dd44fa8fc62b08843151, type: 2}
+  - {fileID: 11400000, guid: a5068583f7307314f9c028fcf663d09c, type: 2}
+  EntityFillerDefinitions: []

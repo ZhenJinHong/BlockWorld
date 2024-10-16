@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5274bf94fc04beb498f9b0035364ace2, type: 3}
+  m_Name: NatureWorldFiller
+  m_EditorClassIdentifier: 
+  builder:
+    FlowerRangeOffset:
+      x: 1
+      y: 1234
+    FlowerRangeScale:
+      x: 1
+      y: 2
+    FlowerThreshold:
+      x: -0.3
+      y: 0.5
+    SeaLevelOffset:
+      x: -1
+      y: 1
+  blocks:
+  - {fileID: 11400000, guid: bb0dcb30a5e43c14aa46cf85c82424bc, type: 2}
+  - {fileID: 11400000, guid: 0d940d7b34752e34e83020a52214f054, type: 2}
+  - {fileID: 11400000, guid: 4fced9e5b3cf2e442816259ad3757fb6, type: 2}
+  - {fileID: 11400000, guid: c069f6f25ffafa143a768087a191fa0d, type: 2}
+  - {fileID: 11400000, guid: e8abf9f673c58f247a4ac09b33aa7133, type: 2}
+  - {fileID: 11400000, guid: 7c21583d7ecb8274593842f365e726ca, type: 2}
+  underWaterBlocks:
+  - {fileID: 11400000, guid: f0906e795b491d6468e7d52be1fe0c17, type: 2}
+  - {fileID: 11400000, guid: e8abf9f673c58f247a4ac09b33aa7133, type: 2}
+  surfaceBlocks:
+  - {fileID: 11400000, guid: eae24f5089ca5d74e8d4c7aefcbe5ce3, type: 2}
+  - {fileID: 11400000, guid: eae24f5089ca5d74e8d4c7aefcbe5ce3, type: 2}
+  - {fileID: 11400000, guid: eae24f5089ca5d74e8d4c7aefcbe5ce3, type: 2}
+  - {fileID: 11400000, guid: 5aa702136da2ca84db5ac8464952dbc9, type: 2}
+  grasss:
+  - {fileID: 11400000, guid: fe332539d3c9682409b8de157aade524, type: 2}
+  - {fileID: 11400000, guid: c5406288dde2f334ebb0cfe8bbc66037, type: 2}
+  flowers:
+  - {fileID: 11400000, guid: 291df7f3a3aa3f74d8129ea2488ea83e, type: 2}
+  - {fileID: 11400000, guid: 5ca59d887808ef7429e779aa33bb3af0, type: 2}
+  - {fileID: 11400000, guid: 8b60312b82c0a07479ab87e872cbea42, type: 2}

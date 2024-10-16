@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: VoxelWorldDefinition
+  m_EditorClassIdentifier: 
+  m_GroupName: VoxelWorldDefinition
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d945584a09d827941b868fc7c32253bc
+  m_SerializeEntries:
+  - m_GUID: 5219a80b39ffd454fb3bdd44939e72fa
+    m_Address: Assets/VoxelWorld_ECS/VoxelDefinition
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Definition
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5765030b29da9d44e9f4c608501172ab
+    m_Address: Assets/VoxelWorld_ECS/VoxelShapeDefinition
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Definition
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b0876d8f8bea4a4c9be4007d9b1dae6
+    m_Address: Assets/VoxelWorld_ECS/MagicWandDefinition
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Definition
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 611300783d5fa0648be9f5ab655ddd72
+    m_Address: Assets/VoxelWorld_ECS/WorldDefinition
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Definition
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: fbee080153a0c2140991dd3b91d4521e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: dc765ae64de202044a06db552fb72c4a, type: 2}
+    - {fileID: 11400000, guid: 2a7a1482b6315bc42b2ea888b13fa66c, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8b0ed9e4483e67448cd3e6da958059f, type: 3}
+  m_Name: "\u80A5\u6C83\u571F"
+  m_EditorClassIdentifier: 
+  classifyName: "\u65B9\u5757"
+  voxelMaterial: 1
+  renderType: 0
+  icon: {fileID: 2800000, guid: 6e727f0d30dcebd47ae0a4fcb6b2dcb0, type: 3}
+  texture: {fileID: 2800000, guid: 6e727f0d30dcebd47ae0a4fcb6b2dcb0, type: 3}
+  energy: 0
+  resistance: 15

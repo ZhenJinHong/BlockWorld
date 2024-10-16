@@ -1,0 +1,236 @@
+﻿{
+    "keyValues": [
+        {
+            "key": "One",
+            "value": "槽位一"
+        },
+        {
+            "key": "Two",
+            "value": "槽位二"
+        },
+        {
+            "key": "Three",
+            "value": "槽位三"
+        },
+        {
+            "key": "Four",
+            "value": "槽位四"
+        },
+        {
+            "key": "Five",
+            "value": "槽位五"
+        },
+        {
+            "key": "Six",
+            "value": "槽位六"
+        },
+        {
+            "key": "Seven",
+            "value": "槽位七"
+        },
+        {
+            "key": "Eight",
+            "value": "槽位八"
+        },
+        {
+            "key": "Nine",
+            "value": "槽位九"
+        },
+        {
+            "key": "Q",
+            "value": "Q"
+        },
+        {
+            "key": "E",
+            "value": "E"
+        },
+        {
+            "key": "R",
+            "value": "Rkey"
+        },
+        {
+            "key": "T",
+            "value": "Tkey"
+        },
+        {
+            "key": "F",
+            "value": "Fkey"
+        },
+        {
+            "key": "Z",
+            "value": "Zkey"
+        },
+        {
+            "key": "X",
+            "value": "Xkey"
+        },
+        {
+            "key": "Space",
+            "value": "Jump"
+        },
+        {
+            "key": "Shift",
+            "value": "Sprint"
+        },
+        {
+            "key": "Start",
+            "value": "开始"
+        },
+        {
+            "key": "存档",
+            "value": "存档"
+        },
+        {
+            "key": "设置",
+            "value": "设置"
+        },
+        {
+            "key": "帮助说明",
+            "value": "帮助说明"
+        },
+        {
+            "key": "结束当前游戏",
+            "value": "结束当前游戏"
+        },
+        {
+            "key": "结束游戏",
+            "value": "退出游戏"
+        },
+        {
+            "key": "OK",
+            "value": "确定"
+        },
+        {
+            "key": "UI设置",
+            "value": "UI设置"
+        },
+        {
+            "key": "质量设置",
+            "value": "质量设置"
+        },
+        {
+            "key": "玩家设置",
+            "value": "玩家设置"
+        },
+        {
+            "key": "相机设置",
+            "value": "相机设置"
+        },
+        {
+            "key": "载入",
+            "value": "载入"
+        },
+        {
+            "key": "Cancel",
+            "value": "取消"
+        },
+        {
+            "key": "Back",
+            "value": "返回"
+        },
+        {
+            "key": "保存",
+            "value": "保存"
+        },
+        {
+            "key": "删除",
+            "value": "删除"
+        },
+        {
+            "key": "重置",
+            "value": "重置"
+        },
+        {
+            "key": "应用",
+            "value": "应用"
+        },
+        {
+            "key": "重置本页",
+            "value": "重置本页"
+        },
+        {
+            "key": "应用本页",
+            "value": "应用本页"
+        },
+        {
+            "key": "UI颜色",
+            "value": "UI颜色"
+        },
+        {
+            "key": "文本设定",
+            "value": "文本设定"
+        },
+        {
+            "key": "字体大小",
+            "value": "字体大小"
+        },
+        {
+            "key": "字体颜色",
+            "value": "字体颜色"
+        },
+        {
+            "key": "自动大小",
+            "value": "自动大小"
+        },
+        {
+            "key": "水平溢出",
+            "value": "水平溢出"
+        },
+        {
+            "key": "垂直溢出",
+            "value": "垂直溢出"
+        },
+        {
+            "key": "大小",
+            "value": "大小"
+        },
+        {
+            "key": "最大",
+            "value": "最大"
+        },
+        {
+            "key": "最小",
+            "value": "最小"
+        },
+        {
+            "key": "行",
+            "value": "行"
+        },
+        {
+            "key": "选项",
+            "value": "选项"
+        },
+        {
+            "key": "主页选项",
+            "value": "主页选项"
+        },
+        {
+            "key": "视窗",
+            "value": "视窗"
+        },
+        {
+            "key": "面板",
+            "value": "面板"
+        },
+        {
+            "key": "图像",
+            "value": "图像"
+        },
+        {
+            "key": "行字体",
+            "value": "行字体"
+        },
+        {
+            "key": "选项字体",
+            "value": "选项字体"
+        },
+        {
+            "key": "脚注字体",
+            "value": "脚注字体"
+        },
+        {
+            "key": "主页选项字体",
+            "value": "主页选项字体"
+        }
+    ]
+}

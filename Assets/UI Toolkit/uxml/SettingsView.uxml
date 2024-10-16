@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/uss/DefaultRuntimeTheme.uss?fileID=7433441132597879392&amp;guid=fe10cba69b7ab3d4bad2696659499c03&amp;type=3#DefaultRuntimeTheme" />
+    <ui:VisualElement picking-mode="Ignore" class="color-squeaky-opacity view-full-margin50px">
+        <ui:VisualElement picking-mode="Ignore" name="TabMenu" class="view-row">
+            <ui:Button text="Button" display-tooltip-when-elided="true" class="btn-tag-top" />
+        </ui:VisualElement>
+        <ui:VisualElement picking-mode="Ignore" class="view-full view-tab-content-bottom">
+            <ui:VisualElement name="TabContent" picking-mode="Ignore" class="view-full" />
+            <ui:VisualElement name="BottomMenu" picking-mode="Ignore" class="view-row">
+                <ui:Button text="Button" display-tooltip-when-elided="true" class="btn" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,232 @@
+{
+    "keyValues": [
+        {
+            "key": "One",
+            "value": "ItemSlot One"
+        },
+        {
+            "key": "Two",
+            "value": "ItemSlot Two"
+        },
+        {
+            "key": "Three",
+            "value": "ItemSlot Three"
+        },
+        {
+            "key": "Four",
+            "value": "ItemSlot Four"
+        },
+        {
+            "key": "Five",
+            "value": "ItemSlot Five"
+        },
+        {
+            "key": "Six",
+            "value": "ItemSlot Six"
+        },
+        {
+            "key": "Seven",
+            "value": "ItemSlot Seven"
+        },
+        {
+            "key": "Eight",
+            "value": "ItemSlot Eight"
+        },
+        {
+            "key": "Nine",
+            "value": "ItemSlot Nine"
+        },
+        {
+            "key": "Q",
+            "value": "Switch tool modes"
+        },
+        {
+            "key": "E",
+            "value": "OpenGamePanel"
+        },
+        {
+            "key": "R",
+            "value": "Rkey"
+        },
+        {
+            "key": "T",
+            "value": "Tkey"
+        },
+        {
+            "key": "F",
+            "value": "Fkey"
+        },
+        {
+            "key": "Z",
+            "value": "Zkey"
+        },
+        {
+            "key": "X",
+            "value": "Xkey"
+        },
+        {
+            "key": "Space",
+            "value": "Jump"
+        },
+        {
+            "key": "Shift",
+            "value": "Sprint"
+        },
+        {
+            "key": "Start",
+            "value": "Start"
+        },
+        {
+            "key": "存档",
+            "value": "Archive"
+        },
+        {
+            "key": "设置",
+            "value": "Settings"
+        },
+        {
+            "key": "帮助说明",
+            "value": "Description"
+        },
+        {
+            "key": "结束当前游戏",
+            "value": "End the current game"
+        },
+        {
+            "key": "结束游戏",
+            "value": "End the game"
+        },
+        {
+            "key": "按键绑定",
+            "value": "Key binding"
+        },
+        {
+            "key": "UI设置",
+            "value": "UI Setting"
+        },
+        {
+            "key": "质量设置",
+            "value": "Quality Setting"
+        },
+        {
+            "key": "玩家设置",
+            "value": "PlayerSetting"
+        },
+        {
+            "key": "相机设置",
+            "value": "CameraSetting"
+        },
+        {
+            "key": "载入",
+            "value": "Load"
+        },
+        {
+            "key": "取消",
+            "value": "Cancel"
+        },
+        {
+            "key": "保存",
+            "value": "Save"
+        },
+        {
+            "key": "删除",
+            "value": "Del"
+        },
+        {
+            "key": "重置",
+            "value": "Reset"
+        },
+        {
+            "key": "应用",
+            "value": "Apply"
+        },
+        {
+            "key": "重置本页",
+            "value": "Reset this"
+        },
+        {
+            "key": "应用本页",
+            "value": "Apply this"
+        },
+        {
+            "key": "UI颜色",
+            "value": "UIColor Settings"
+        },
+        {
+            "key": "文本设定",
+            "value": "Text Settings"
+        },
+        {
+            "key": "字体大小",
+            "value": "Font Size"
+        },
+        {
+            "key": "字体颜色",
+            "value": "Font Color"
+        },
+        {
+            "key": "自动大小",
+            "value": "auto size"
+        },
+        {
+            "key": "水平溢出",
+            "value": "overflows horizontally"
+        },
+        {
+            "key": "垂直溢出",
+            "value": "overflows vertically"
+        },
+        {
+            "key": "大小",
+            "value": "size"
+        },
+        {
+            "key": "最大",
+            "value": "maximum size"
+        },
+        {
+            "key": "最小",
+            "value": "minimum size"
+        },
+        {
+            "key": "行",
+            "value": "Line"
+        },
+        {
+            "key": "选项",
+            "value": "Option"
+        },
+        {
+            "key": "主页选项",
+            "value": "Home page option"
+        },
+        {
+            "key": "视窗",
+            "value": "Viewport"
+        },
+        {
+            "key": "面板",
+            "value": "Panel"
+        },
+        {
+            "key": "图像",
+            "value": "Image"
+        },
+        {
+            "key": "行字体",
+            "value": "Line font"
+        },
+        {
+            "key": "选项字体",
+            "value": "Option font"
+        },
+        {
+            "key": "脚注字体",
+            "value": "footnote font"
+        },
+        {
+            "key": "主页选项字体",
+            "value": "Home page font"
+        }
+    ]
+}

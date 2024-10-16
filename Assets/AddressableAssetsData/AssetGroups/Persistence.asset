@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Persistence
+  m_EditorClassIdentifier: 
+  m_GroupName: Persistence
+  m_Data:
+    m_SerializedData: []
+  m_GUID: dd7eb72237be9c945bcbf1f9c8720329
+  m_SerializeEntries: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: fbee080153a0c2140991dd3b91d4521e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 950fab299e4f26142b62b94eb093fa05, type: 2}
+    - {fileID: 11400000, guid: 6f00a6ce4ff661445aa4900faa49382b, type: 2}

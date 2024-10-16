@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feac6086dcea49842932665338ff6c6e, type: 3}
+  m_Name: D3ChessboardFiller
+  m_EditorClassIdentifier: 
+  builder:
+    FloorCount: 6
+  voxel1: {fileID: 11400000, guid: ff97da7be294ba946b5c12db166d7a2c, type: 2}
+  voxel2: {fileID: 11400000, guid: 4724e9440dbc3aa428aaf3324709f6a8, type: 2}

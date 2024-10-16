@@ -1,0 +1,371 @@
+:root {
+    -unity-font: url('project://database/Assets/Fonts/MaoKenTangYuan.ttf?fileID=12800000&guid=1b9aaab0b723bd944981807ec891a779&type=3#MaoKenTangYuan');
+    font-size: 18px;
+    -unity-font-definition: url('project://database/Assets/Fonts/MaoKenTangYuan%20SDF.asset?fileID=11400000&guid=e7efebf79d103dd449857e3690581e24&type=2#MaoKenTangYuan SDF');
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.noneDisplay {
+    display: none;
+}
+
+.view-full {
+    flex-grow: 1;
+}
+
+.view-abs {
+    position: absolute;
+}
+
+.view-absfull {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.view-child-center-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.view-child-around {
+    justify-content: space-around;
+}
+
+.view-child-left {
+    align-items: flex-start;
+}
+
+.view-child-left-center {
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.view-bg-frameimage {
+    background-image: url('project://database/Assets/CatDefaultAsset/DefaultSquare.png?fileID=2800000&guid=ea530efe738ee3840af0a213cfecfadd&type=3#DefaultSquare');
+    -unity-slice-left: 5;
+    -unity-slice-top: 5;
+    -unity-slice-right: 5;
+    -unity-slice-bottom: 5;
+    -unity-background-image-tint-color: rgb(99, 205, 218);
+    background-color: rgba(99, 205, 218, 0.54);
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.view-mp10px {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.view-row {
+    flex-direction: row;
+}
+
+.title {
+    -unity-font: url('project://database/Assets/Fonts/Mengshen-Handwritten.ttf?fileID=12800000&guid=1f5ec01b2ccc3644c8835191725a63be&type=3#Mengshen-Handwritten');
+    font-size: 90px;
+    -unity-text-outline-color: rgb(255, 159, 26);
+    -unity-text-outline-width: 1px;
+    text-shadow: 6px 6px 3.5px rgb(34, 31, 16);
+    -unity-font-style: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    -unity-text-align: middle-center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.h3 {
+    font-size: 30px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.h4 {
+    font-size: 25px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.color-bg-squeaky {
+    background-color: rgb(99, 205, 218);
+}
+
+.color-bg-squeaky-opacity {
+    background-color: rgba(99, 205, 218, 0.5);
+}
+
+.color-bg-grey-gradient {
+    -unity-background-image-tint-color: rgba(113, 128, 147, 0.39);
+    background-image: url('project://database/Assets/Texture2D/UISprite/%E6%B8%90%E5%8F%98%E6%9D%A1.png?fileID=2800000&guid=ab0b0f36dd7a2bb4f99ca34726f8101e&type=3#渐变条');
+}
+
+.color-bg-white-opacity {
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+.color-image-squeaky {
+    -unity-background-image-tint-color: rgb(99, 205, 218);
+}
+
+.color-image-squeaky-gradient {
+    background-image: url('project://database/Assets/Texture2D/UISprite/%E6%B8%90%E5%8F%98%E6%9D%A1.png?fileID=2800000&guid=ab0b0f36dd7a2bb4f99ca34726f8101e&type=3#渐变条');
+    -unity-background-image-tint-color: rgb(99, 205, 218);
+}
+
+.preview-image {
+    background-image: url('project://database/Assets/CatDefaultAsset/%E8%BF%99%E6%98%AF%E4%B8%80%E5%BC%A0%E5%9B%BE.png?fileID=2800000&guid=629bac781e12f0d4ba8e459b9b95ea0c&type=3#这是一张图');
+    -unity-background-scale-mode: scale-to-fit;
+    min-width: 200px;
+    min-height: 200px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.preview-text {
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 22px;
+    -unity-text-align: middle-left;
+}
+
+.btn {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 25px;
+    -unity-text-align: middle-center;
+    min-width: 80px;
+    margin-left: 8px;
+    min-height: 40px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.btn:hover {
+    color: rgb(250, 211, 144);
+    background-color: rgb(0, 0, 0);
+}
+
+.btn-mainMenu {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    min-width: 25%;
+}
+
+.btn-mainMenu:hover {
+    -unity-font-style: bold;
+    color: rgb(250, 211, 144);
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    -unity-font: url('project://database/Assets/Fonts/Mengshen-HanSerif.ttf?fileID=12800000&guid=bbdb7e2ef4c37fa4698ece93e6abb883&type=3#Mengshen-HanSerif');
+}
+
+.btn-icon {
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 80px;
+    height: 80px;
+}
+
+.btn-icon:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.btn-tag-top {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-top-right-radius: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    border-bottom-width: 0;
+    margin-left: 5px;
+    -unity-text-align: middle-center;
+    border-left-color: rgb(12, 36, 97);
+    border-right-color: rgb(12, 36, 97);
+    border-top-color: rgb(12, 36, 97);
+    border-bottom-color: rgb(12, 36, 97);
+    font-size: 25px;
+    margin-right: 5px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    min-height: 60px;
+    min-width: 80px;
+}
+
+.btn-tag-top:hover {
+    color: rgb(250, 211, 144);
+    background-color: rgb(0, 0, 0);
+}
+
+.btn-tag-bottom {
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 2px;
+    font-size: 24px;
+    min-width: 80px;
+    min-height: 40px;
+    -unity-text-align: middle-center;
+    background-image: url('project://database/Assets/Texture2D/UISprite/Grid_11.png?fileID=2800000&guid=1d180823a5f17f149a9e484d6732a1c9&type=3#Grid_11');
+}
+
+.btn-tag-bottom:hover {
+    color: rgb(250, 211, 144);
+    background-image: url('project://database/Assets/Texture2D/UISprite/White.png?fileID=2800000&guid=ee3ab22747ad3a2408ad305a4fccff5b&type=3#White');
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+}
+
+.item-lattice-share {
+    position: absolute;
+    width: 77px;
+    height: 77px;
+}
+
+.item-lattice {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 85px;
+    height: 85px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-image: url('project://database/Assets/Texture2D/UISprite/Grid_11.png?fileID=2800000&guid=1d180823a5f17f149a9e484d6732a1c9&type=3#Grid_11');
+    -unity-background-image-tint-color: rgb(99, 205, 218);
+}
+
+.item-lattice:hover {
+    scale: 1.1 1.1;
+}
+
+.item-lattice-lbl {
+    position: absolute;
+    font-size: 15px;
+    bottom: 0;
+    right: 0;
+}
+
+.item-lattice-corner {
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+.item-lattice-selected {
+    scale: 1.1 1.1;
+}
+
+.item-line {
+    width: 90%;
+    height: 35px;
+    background-image: url('project://database/Assets/Texture2D/UISprite/Grid_11.png?fileID=2800000&guid=1d180823a5f17f149a9e484d6732a1c9&type=3#Grid_11');
+    -unity-slice-left: 5;
+    -unity-slice-top: 5;
+    -unity-slice-right: 5;
+    -unity-slice-bottom: 5;
+    -unity-background-image-tint-color: rgb(99, 205, 218);
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-line:hover {
+    scale: 1.1 1.1;
+}
+
+.item-line-image {
+    height: 35px;
+    width: 35px;
+}
+
+.item-line-lbl {
+    -unity-text-align: lower-right;
+}
+
+.virtual-text-field {
+    font-size: 22px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    -unity-text-align: middle-left;
+    flex-direction: row;
+    min-width: 125px;
+}
+
+.virtual-text-field:hover {
+    color: rgb(250, 211, 144);
+    background-color: rgb(0, 0, 0);
+}

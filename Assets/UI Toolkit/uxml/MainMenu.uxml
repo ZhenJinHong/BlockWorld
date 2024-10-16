@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/uss/DefaultRuntimeTheme.uss?fileID=7433441132597879392&amp;guid=fe10cba69b7ab3d4bad2696659499c03&amp;type=3#DefaultRuntimeTheme" />
+    <ui:VisualElement name="Homepage" picking-mode="Ignore" class="color-grey-gradient view-full">
+        <ui:Label tabindex="-1" text="亡灵骨海" display-tooltip-when-elided="true" name="Title" picking-mode="Ignore" class="title" />
+        <ui:VisualElement picking-mode="Ignore" class="view-full view-row">
+            <ui:VisualElement name="MainMenu" picking-mode="Ignore" style="width: 25%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="MainContent" picking-mode="Ignore" class="view-absfull" style="padding-left: 50px; padding-right: 50px; padding-top: 50px; padding-bottom: 50px;">
+        <ui:VisualElement name="ReturnHomeView" class="noneDisplay view-full" />
+        <ui:VisualElement name="QuitGameView" class="view-full noneDisplay" />
+        <ui:VisualElement name="BeginGameView" class="view-full noneDisplay" />
+        <ui:VisualElement name="SettingsView" picking-mode="Ignore" class="view-full noneDisplay">
+            <ui:VisualElement name="Tabs" picking-mode="Ignore" class="view-row">
+                <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" class="btn-tag-top color-bg-squeaky-opacity" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Content" picking-mode="Ignore" class="view-full color-bg-squeaky-opacity" style="background-color: rgba(99, 205, 218, 0.51); border-left-color: rgb(12, 36, 97); border-right-color: rgb(12, 36, 97); border-top-color: rgb(12, 36, 97); border-bottom-color: rgb(12, 36, 97); border-left-width: 1px; border-right-width: 1px; border-bottom-width: 1px; margin-left: 5px; margin-right: 5px; margin-top: 0; margin-bottom: 5px;" />
+            <ui:VisualElement name="Btns" picking-mode="Ignore" class="view-row">
+                <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" class="btn color-bg-squeaky" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

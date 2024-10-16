@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec5e32b2c001044da1c2f1ef20771c1, type: 3}
+  m_Name: Footnote
+  m_EditorClassIdentifier: 
+  styleData:
+    fontName: MaoKenTangYuan
+    fontStyle: 0
+    fontSize: 14
+    lineSpacing: 1
+    richText: 0
+    textAnchor: 8
+    alignByGeometry: 0
+    horizontalWrapMode: 0
+    verticalWrapMode: 0
+    bestFit: 0
+    color: {r: 0.7411765, g: 1, b: 0.94509804, a: 1}
+    raycastTarget: 0
+    maskable: 0
+  styleDataOnHover:
+    fontName: MaoKenTangYuan
+    fontStyle: 0
+    fontSize: 14
+    lineSpacing: 1
+    richText: 0
+    textAnchor: 8
+    alignByGeometry: 0
+    horizontalWrapMode: 1
+    verticalWrapMode: 1
+    bestFit: 0
+    color: {r: 0.78039217, g: 0.99215686, b: 0.972549, a: 1}
+    raycastTarget: 0
+    maskable: 0

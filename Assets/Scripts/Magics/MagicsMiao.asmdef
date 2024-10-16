@@ -1,0 +1,19 @@
+{
+    "name": "MagicsMiao",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5ae5a71a7769e9040988a77cd9bd20dd",
+        "GUID:2e51ec3e892d2ef4ebbe2b8e61b21415",
+        "GUID:552a3d29e21929241ab7408b06c49949",
+        "GUID:30e7465ce10af9e46bdebdf9a48d3cee"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

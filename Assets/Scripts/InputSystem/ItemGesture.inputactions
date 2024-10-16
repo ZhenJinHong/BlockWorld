@@ -1,0 +1,51 @@
+{
+    "name": "ItemGesture",
+    "maps": [
+        {
+            "name": "Gesture",
+            "id": "035f17ed-b7dc-4402-b4c1-8b7a92c30344",
+            "actions": [
+                {
+                    "name": "Split",
+                    "type": "Button",
+                    "id": "cb8b75a9-435a-4611-bb74-08c2ab0186ea",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f4a672c3-395e-44a6-817e-1d2519904333",
+                    "path": "<Keyboard>/leftAlt",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Split",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PC",
+            "bindingGroup": "PC",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

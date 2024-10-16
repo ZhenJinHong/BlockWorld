@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50f4c3fe89a13424bb537e69c949d169, type: 3}
+  m_Name: TreeFiller
+  m_EditorClassIdentifier: 
+  builder:
+    RangeScale:
+      x: 0.03
+      y: 0.04
+    PutScale:
+      x: 1.0022
+      y: 1.9954
+    RangeThreshold:
+      x: -0.2
+      y: 0
+    PutThreshold:
+      x: 0.55
+      y: 0.7
+  trunk: {fileID: 11400000, guid: c31712cd0cafbac40b69dd2657329ed5, type: 2}
+  trunkShape: {fileID: 11400000, guid: 1947f177bcb89c847b67d5b5bc026e26, type: 2}
+  leave: {fileID: 11400000, guid: b7a4edf785e1e3d4b90afd6b7f897105, type: 2}
