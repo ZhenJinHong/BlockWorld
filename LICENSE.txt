@@ -19,4 +19,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-Note that some of the tile textures in the project are downloaded from websites that allow free commercial use, and some are free commercial assets from the Asset Store (with a separate agreement), and I not have ownership.You'll need to replace these textures yourself
+Note that some of the tile textures in the project are downloaded from websites that allow free commercial use,
+and some are free commercial assets from the Asset Store (with a separate agreement), and I not have ownership.
+You'll need to replace these textures yourself.Otherwise, you do so at your own risk
